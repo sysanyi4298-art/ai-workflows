@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Code With SEO 选题包"
+  short_description: "低成本发现、缓存复用和Semrush后置验证的SEO漏斗"
+  default_prompt: "Use $generate-seo-topic-pack v2.1 to resume the active topic using authenticated browser evidence before exports and caches, enforce paid-query and cannibalization gates, and stop at the human review gate unless the user has explicitly confirmed production."

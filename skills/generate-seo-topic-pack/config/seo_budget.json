@@ -1,0 +1,24 @@
+{
+  "version": "2.1",
+  "run_target_articles_source": "config/content_policy.json#DAILY_FINAL_ARTICLE_TARGET",
+  "source_priority": ["authenticated_browser", "project_export", "today_cache", "historical_cache", "DATA_MISSING"],
+  "semrush": {
+    "daily_total": 5000,
+    "soft_limit": 600,
+    "warning_threshold": 800,
+    "hard_limit": 1000,
+    "candidate_intent_min": 15,
+    "candidate_intent_max": 20,
+    "max_variants_per_intent": 2
+  },
+  "token_guard": {
+    "cache_operations_profile": true,
+    "cache_official_facts": true,
+    "cache_serp_structure": true,
+    "analyze_keyword_once": true,
+    "briefs_before_bodies": true
+  },
+  "cannibalization_fields": ["primary_keyword", "secondary_keywords", "intent", "slug", "h1", "cluster"],
+  "validation_states": ["FORMAL_VALIDATED", "PROVISIONAL_TODAY", "WAITING_SEMRUSH", "WAITING_GSC", "WAITING_TRENDS", "WAITING_SERP", "FACT_CHECK_REQUIRED", "TEST_REQUIRED", "SCREENSHOT_REQUIRED", "PUBLISH_READY"],
+  "image_states": ["AI_IMAGE", "AI_IMAGE_OPTIONAL", "AI_IMAGE_SKIPPED", "SCREENSHOT_REQUIRED", "NO_IMAGE"]
+}
