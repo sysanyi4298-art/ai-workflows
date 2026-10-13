@@ -1,0 +1,23 @@
+name: AI Code With
+url: https://aicodewith.ai/zh
+models_url: https://aicodewith.ai/zh/models
+integrations_url: https://aicodewith.ai/zh/integrations
+blurb: AI Code With 是面向个人开发者和技术团队的多模型 API 接入平台。用户可以在同一平台选择不同模型、统一管理调用额度，并按实际用量计费，减少分别维护多个平台账号和账单的工作。
+contact: sysanyi4298@gmail.com
+category: AI编程
+audience: 个人开发者和技术团队
+detail: 平台同时提供模型价格与编程工具配置资料，方便用户了解调用成本并完成接入。对于多个项目或团队成员的使用需求，还可以通过独立 API Key 设置消费限额和可用模型，管理各自的使用范围。
+values:
+  - 在同一平台选择不同模型
+  - 统一管理调用额度，并按实际用量计费
+  - 通过独立 API Key 设置消费限额和可用模型
+scenario: 减少分别维护多个平台账号和账单的工作。
+icp_number: ""
+verified_at: "2026-10-12"
+sources:
+  - https://aicodewith.ai/zh
+  - https://aicodewith.ai/zh/models
+  - https://aicodewith.ai/zh/integrations
+  - https://docs.aicodewith.ai/zh/docs
+  - https://docs.aicodewith.ai/zh/docs/subscription-package-selection
+notes: 首页写有额度一年有效和30+模型。计费文档确认预充值加按量计费，同一页还写永久有效、体验价和折扣。这些不写入对外文案。统一额度管理按维护后的事实包使用。
